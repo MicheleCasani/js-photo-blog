@@ -7,7 +7,7 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
 
 // funzione per la creazione della card
 const createCard = (data) => {
-    let card = `<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-4 position-relative">
+    let card = `<div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4 position-relative">
     <div class="card" style="width: 18rem;">
         <img src="${data.url}" class="card-img-top" alt="${data.title}">
         <div class="card-body pt-3">

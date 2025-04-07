@@ -17,6 +17,7 @@ Font utilizzati:
 titoli: ‘Edu Tas Beginner’, sans-serif;
 date: ‘Sometype Mono’, ‘monospace’;
 (Dovreste sapere a questo punto cosa e come prendere da Google Fonts… :occhiolino:)
+
 Bonus
 rendi la pagina responsive, in modo che su mobile e tablet le foto si dispongano man mano una sotto l’altra ed il titolo abbia una dimensione adeguata
 Note
