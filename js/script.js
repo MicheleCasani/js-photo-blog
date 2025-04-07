@@ -9,7 +9,7 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
 const createCard = (data) => {
     let card = `<div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4 position-relative">
     <div class="card" style="width: 18rem;">
-        <img src="${data.url}" class="card-img-top" alt="${data.title}">
+            <img src="${data.url}" class="card-img-top" alt="${data.title}">
         <div class="card-body pt-3">
         <p class="text-secondary">${data.date}</p>
         <h3 class="card-title">${data.title}</h5>
@@ -29,6 +29,22 @@ const showCards = (data) => {
     document.getElementById('cards').innerHTML = cards;
 
 }
+
+// richiamo gli elememnìti dal DOM
+let cards = document.getElementById('cards');
+let overlay = document.getElementById('overlay');
+let buttonClose = document.getElementById('button-close');
+
+// aggiungo l'evento al click della card che fa apparire l'overlay
+cards.addEventListener('click', (e) => {
+    overlay.classList.remove('d-none');
+});
+
+// aggiungo l'evento del bottone dell'overlay, che una volta cliccato chiude l'overlay
+buttonClose.addEventListener('click', (e) => {
+    overlay.classList.add('d-none');
+});
+
 
 
 
