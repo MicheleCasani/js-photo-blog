@@ -16,7 +16,9 @@ header{
 }
 
 h1{
-    font-size: 70px;
+    font-size: 80px;
+    font-family: "Edu SA Beginner", cursive;
+    font-weight: 700;
 }
 
 .container{
@@ -39,6 +41,10 @@ h1{
 }
 
 .container-fluid{
+    padding: 0px;
+}
+
+.card-body{
     padding: 0px;
 }
 
