@@ -6,13 +6,13 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
 })
 
 // funzione per la creazione della card
-const createCard = (data) => {
+const createCard = (element) => {
     let card = `<div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4 position-relative">
     <div class="card" style="width: 18rem;">
-            <img src="${data.url}" class="card-img-top" alt="${data.title}">
+            <img src="${element.url}" class="card-img-top" alt="${element.title}">
         <div class="card-body pt-3">
-        <p class="text-secondary">${data.date}</p>
-        <h3 class="card-title">${data.title}</h5>
+        <p class="text-secondary">${element.date}</p>
+        <h3 class="card-title">${element.title}</h5>
         </div>
         <img src="./img/pin.svg" alt="" class="pin">
     </div>
