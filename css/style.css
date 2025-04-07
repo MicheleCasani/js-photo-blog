@@ -48,3 +48,15 @@ h1{
     padding: 0px;
 }
 
+.card-title{
+    font-family: "Edu SA Beginner", cursive;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.text-secondary{
+    margin: 0px;
+    font-family: "Sometype Mono", monospace;
+}
+
