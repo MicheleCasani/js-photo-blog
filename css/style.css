@@ -4,35 +4,35 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image:  url(../img/cork.png);
+body {
+    background-image: url(../img/cork.png);
     height: 100%;
 }
 
-header{
+header {
     height: 150px;
     width: 100%;
     background-image: url(../img/wall.png);
 }
 
-h1{
+h1 {
     font-size: 80px;
     font-family: "Edu SA Beginner", cursive;
     font-weight: 700;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100%;
     padding: 0px;
 }
 
-.card{
+.card {
     border-radius: 0px;
     padding: 15px;
 }
 
-.pin{
+.pin {
     width: 40px;
     height: 40px;
     position: absolute;
@@ -40,27 +40,27 @@ h1{
     left: 45%;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 0px;
 }
 
-.card-body{
+.card-body {
     padding: 0px;
 }
 
-.card-title{
+.card-title {
     font-family: "Edu SA Beginner", cursive;
     font-weight: 700;
     font-size: 40px;
     margin: 0px;
 }
 
-.text-secondary{
+.text-secondary {
     margin: 0px;
     font-family: "Sometype Mono", monospace;
 }
 
-#overlay{
+#overlay {
     position: fixed;
     z-index: 1;
     top: 0;
@@ -70,25 +70,25 @@ h1{
     justify-content: center;
 }
 
-.overlay-img{
-   object-fit: cover;
+.overlay-img {
+    object-fit: cover;
 }
 
-.container-fluid{
-height: 100%;
+.container-fluid {
+    height: 100%;
 }
 
-h2{
+h2 {
     font-size: 50px;
     font-family: "Edu SA Beginner", cursive;
     font-weight: 700;
     color: white;
 }
 
-.btn{
+.btn {
     width: 100px;
 }
 
-.card{
+.card {
     cursor: pointer;
 }
