@@ -87,8 +87,20 @@ h2 {
 
 .btn {
     width: 100px;
+
 }
 
 .card {
     cursor: pointer;
+}
+
+.card:hover {
+    transform: rotate(10deg) scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.9); 
+}
+
+#overlay-img img{
+    max-width: 90%; 
+    max-height: 80%;
 }
