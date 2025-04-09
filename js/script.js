@@ -21,13 +21,15 @@ const createCard = (element) => {
 }
 
 // creo la funzione per visualizzare le card
-const showCards = (data) => {
+const showCards = (array) => {
     let cards = '';
-    data.forEach((items) => {
+    array.forEach((items) => {
         cards += createCard(items);
     });
     document.getElementById('cards').innerHTML = cards;
 }
+
+
 
 // richiamo gli elememnìti dal DOM
 let cards = document.getElementById('cards');
